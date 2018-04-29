@@ -13,18 +13,25 @@ public class ShiftCipher extends Cipher {
         super(CipherType.SHIFT);
     }
 
+    /**
+     * Returns an array of Integers which represents the encrypted message given the input string,
+     * modular coefficient and how much to shift for the encryption
+     *
+     * @param input an input message that will be encrypted
+     * @param a      the modular coefficient for shift cipher; it's going to be one
+     * @param b      the number representing how much to shift for the encryption
+     * */
     @Override
     public ArrayList<Integer> encrypt(String input, int a, int b) {
         int length = input.length();
-        int modular = 26;
         ArrayList<Integer> integers = new ArrayList<Integer>(length);
         HashMap<String,Integer> conversionTable = table.getAlphabetTable();
 
         for (int index = 0; index < length; index++) {
             try {
-                Integer codeNumber = (a*conversionTable.get(Character.toString(input.charAt(index))) + b) % modular;
-                if (codeNumber >= modular) {
-                    System.out.println("Modular is " + modular);
+                Integer codeNumber = (a*conversionTable.get(Character.toString(input.charAt(index))) + b) % Modular;
+                if (codeNumber >= Modular) {
+                    System.out.println("Modular is " + Modular);
                 }
                 integers.add(codeNumber);
             } catch (ArithmeticException  e) {
@@ -34,12 +41,30 @@ public class ShiftCipher extends Cipher {
         return integers;
     }
 
+
+    /**
+     * Returns a string which represents the decrypted message given the input array,
+     * modular coefficient and how much was shifted for the encryption
+     *
+     * @param input an input message that will be encrypted
+     * @param c      the modular coefficient for shift cipher; it's going to be one
+     * @param d      the number representing how much was shifted for the encryption
+     * */
     @Override
     String decrypt(ArrayList<Integer> input, int c, int d) {
 
         return null;
     }
 
+
+    /**
+     * Returns a string which represents the encrypted message given the input string,
+     * modular coefficient and how much to shift for the encryption
+     *
+     * @param input an input message that will be encrypted
+     * @param c      the modular coefficient for shift cipher; it's going to be one
+     * @param d      the number representing how much was shifted for the encryption
+     * */
     @Override
     public String getEncryptedMessage(String input, int c, int d) {
         String encryptedMessage = "";

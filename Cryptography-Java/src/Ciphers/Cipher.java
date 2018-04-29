@@ -16,6 +16,7 @@ enum CipherType
 public abstract class Cipher {
     protected CipherType cipher;
     protected final static EnglishAlphabet table = new EnglishAlphabet();
+    protected final static int Modular = 26;
 
     public Cipher(CipherType cipherType) {
         this.cipher = cipherType;

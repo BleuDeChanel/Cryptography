@@ -11,6 +11,7 @@ import java.util.Set;
 
 public class EnglishAlphabet {
     private HashMap<String,Integer> alphabetTable;
+    private HashMap<Integer,String> alphabetTableReverse;
     private char[] alphabet = "abcdefghijklmnopqrstuvwxyz".toCharArray();
 
     public  EnglishAlphabet() {
@@ -24,26 +25,66 @@ public class EnglishAlphabet {
         }
     }
 
+    public void createReverseTable() {
+        for (int i=0;i<26;i++) {
+            this.alphabetTableReverse.put(new Integer(i), Character.toString(alphabet[i]));
+        }
+    }
+
     public HashMap<String, Integer> getAlphabetTable() {
         return this.alphabetTable;
     }
-
-    public String getKeys() {
-        Set< Map.Entry< String,Integer> > keys = this.alphabetTable.entrySet();
-        String result = "";
-        for (Map.Entry< String,Integer> me:keys)
-        {
-            result += me.getKey();
-        }
-        return result;
+    public HashMap<Integer, String> getAlphabetTableReverse() {
+        return this.alphabetTableReverse;
     }
 
-    public ArrayList<Integer> getValues() {
-        Set< Map.Entry< String,Integer> > keys = this.alphabetTable.entrySet();
+    // Evenif I use <T,E> Not sure how to return String OR ArrayList<Integer> depending on the type of T...
+    public <T,E> String getTableKeys(Map<T, E> table) {
+        Set< Map.Entry<T,E> > keys = table.entrySet();
+        String resultString = "";
+        ArrayList<Integer> resultArray = new ArrayList<Integer>(26);
+
+        for (Map.Entry<T,E> me:keys)
+        {
+            if (me.getKey() instanceof String) {
+                try {
+                    resultString += me.getKey();
+                } catch (Exception e) {
+                    System.out.println("Type of the Key does not support the + operator!");
+                }
+            }
+
+            else if (me.getKey() instanceof Integer) {
+                try {
+                    resultArray.add((Integer) me.getValue());
+                } catch (Exception e) {
+                    System.out.println("Value should be an Integer!");
+                }
+            }
+
+            else {
+                System.out.println("Key is neither String nor Integer!");
+            }
+        }
+        return resultString; // could we conditionally return String OR Array?
+    }
+
+    public <T,E> ArrayList<Integer> getTableValues(Map<T, E> table) {
+        Set< Map.Entry< T,E> > keys = table.entrySet();
         ArrayList<Integer> result = new ArrayList<Integer>(26);
-        for (Map.Entry< String,Integer> me:keys) {
-            result.add(me.getValue());
+        for (Map.Entry< T,E> me:keys) {
+            try {
+                result.add((Integer) me.getValue());
+            } catch (Exception e) {
+                System.out.println("Value should be an Integer!");
+            }
+
         }
         return result ;
     }
+
+
+    
+
+
 }

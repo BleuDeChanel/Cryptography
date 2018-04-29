@@ -26,7 +26,18 @@ public class TestEnglishAlphabet {
         for (int i=0; i<26; i++) {
             integers.add(i);
         }
-        assertEquals(englishAlphabet.getKeys(), "abcdefghijklmnopqrstuvwxyz");
-        assertEquals(englishAlphabet.getValues(), integers);
+        assertEquals(englishAlphabet.getTableKeys(englishAlphabet.getAlphabetTable()), "abcdefghijklmnopqrstuvwxyz");
+        assertEquals(englishAlphabet.getTableValues(englishAlphabet.getAlphabetTable()), integers);
     }
+
+//    @Test
+//    public void testRevserseTable() {
+//        ArrayList<Integer> integers = new ArrayList<Integer>(26);
+//        for (int i=0; i<26; i++) {
+//            integers.add(i);
+//        }
+//        assertEquals(englishAlphabet.getTableKeys(englishAlphabet.getAlphabetTableReverse()), "abcdefghijklmnopqrstuvwxyz");
+//        assertEquals(englishAlphabet.getTableValues(), integers);
+//    }
+
 }
