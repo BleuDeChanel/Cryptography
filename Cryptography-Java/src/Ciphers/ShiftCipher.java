@@ -51,9 +51,23 @@ public class ShiftCipher extends Cipher {
      * @param d      the number representing how much was shifted for the encryption
      * */
     @Override
-    String decrypt(ArrayList<Integer> input, int c, int d) {
+    public String decrypt(String input, int c, int d) {
+        String decryptedMessage = "";
+        int length = input.length();
+        HashMap<String,Integer> conversionTable = table.getAlphabetTable();
 
-        return null;
+        for (int index = 0; index < length; index++) {
+            try {
+                Integer codeNumber = (c*conversionTable.get(Character.toString(input.charAt(index))) - d) % Modular;
+                if (codeNumber >= Modular) { // mod is returning -#...
+                    System.out.println("Modular is " + Modular + "; use the least positive number in rrs");
+                }
+                decryptedMessage += getKeyByValue(conversionTable,codeNumber);
+            } catch (ArithmeticException  e) {
+                System.err.println("ArithmeticException:  " + e.getMessage());
+            }
+        }
+        return decryptedMessage;
     }
 
 

@@ -16,7 +16,9 @@ public class EnglishAlphabet {
 
     public  EnglishAlphabet() {
         this.alphabetTable = new HashMap< String,Integer>();
+        this.alphabetTableReverse = new HashMap<>();
         createTable();
+        createReverseTable();
     }
 
     public void createTable() {
@@ -42,7 +44,6 @@ public class EnglishAlphabet {
     public <T,E> String getTableKeys(Map<T, E> table) {
         Set< Map.Entry<T,E> > keys = table.entrySet();
         String resultString = "";
-        ArrayList<Integer> resultArray = new ArrayList<Integer>(26);
 
         for (Map.Entry<T,E> me:keys)
         {
@@ -52,18 +53,9 @@ public class EnglishAlphabet {
                 } catch (Exception e) {
                     System.out.println("Type of the Key does not support the + operator!");
                 }
-            }
-
-            else if (me.getKey() instanceof Integer) {
-                try {
-                    resultArray.add((Integer) me.getValue());
-                } catch (Exception e) {
-                    System.out.println("Value should be an Integer!");
-                }
-            }
-
-            else {
-                System.out.println("Key is neither String nor Integer!");
+            } else {
+                System.out.println("Key of the input table is not of type String!");
+                return resultString; // short circuit
             }
         }
         return resultString; // could we conditionally return String OR Array?
@@ -71,20 +63,60 @@ public class EnglishAlphabet {
 
     public <T,E> ArrayList<Integer> getTableValues(Map<T, E> table) {
         Set< Map.Entry< T,E> > keys = table.entrySet();
-        ArrayList<Integer> result = new ArrayList<Integer>(26);
+        ArrayList<Integer> resultArray = new ArrayList<Integer>(26);
         for (Map.Entry< T,E> me:keys) {
-            try {
-                result.add((Integer) me.getValue());
-            } catch (Exception e) {
+            if (me.getValue() instanceof Integer) {
+                try {
+                    resultArray.add((Integer) me.getValue());
+                } catch (Exception e) {
+                    System.out.println("Cannot add the value to the list!");
+                }
+            } else {
                 System.out.println("Value should be an Integer!");
+                return resultArray;
             }
-
         }
-        return result ;
+        return resultArray ;
     }
 
 
-    
+    public <T,E> ArrayList<Integer> getReverseTableKeys(Map<T, E> table) {
+        Set< Map.Entry< T,E> > keys = table.entrySet();
+        ArrayList<Integer> resultArray = new ArrayList<Integer>(26);
+        for (Map.Entry< T,E> me:keys) {
+            if (me.getKey() instanceof Integer) {
+                try {
+                    resultArray.add((Integer) me.getKey());
+                } catch (Exception e) {
+                    System.out.println("Cannot add the value to the list!");
+                }
+            } else {
+                System.out.println("Value should be an Integer!");
+                return resultArray;
+            }
+        }
+        return resultArray ;
+    }
+
+    public <T,E> String getReverseTableValues(Map<T, E> table) {
+        Set< Map.Entry<T,E> > keys = table.entrySet();
+        String resultString = "";
+
+        for (Map.Entry<T,E> me:keys)
+        {
+            if (me.getValue() instanceof String) {
+                try {
+                    resultString += me.getValue();
+                } catch (Exception e) {
+                    System.out.println("Type of the Key does not support the + operator!");
+                }
+            } else {
+                System.out.println("Key of the input table is not of type String!");
+                return resultString; // short circuit
+            }
+        }
+        return resultString; // could we conditionally return String OR Array?
+    }
 
 
 }

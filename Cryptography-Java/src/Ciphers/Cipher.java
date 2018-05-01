@@ -24,7 +24,7 @@ public abstract class Cipher {
     }
 
     abstract ArrayList<Integer> encrypt(String input, int a, int b);
-    abstract String decrypt(ArrayList<Integer> input, int c, int d);
+    abstract String decrypt(String input, int c, int d);
     abstract String getEncryptedMessage(String input, int a, int b);
 
     public static <T, E> T getKeyByValue(Map<T, E> map, E value) {

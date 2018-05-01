@@ -14,30 +14,27 @@ import static org.junit.Assert.assertEquals;
 
 public class TestEnglishAlphabet {
     private EnglishAlphabet englishAlphabet;
+    ArrayList<Integer> integers;
 
     @Before
     public void setUp() {
         englishAlphabet = new EnglishAlphabet();
+        integers = new ArrayList<Integer>(26);
+        for (int i=0; i<26; i++) {
+            integers.add(i);
+        }
     }
 
     @Test
     public void testTable() {
-        ArrayList<Integer> integers = new ArrayList<Integer>(26);
-        for (int i=0; i<26; i++) {
-            integers.add(i);
-        }
         assertEquals(englishAlphabet.getTableKeys(englishAlphabet.getAlphabetTable()), "abcdefghijklmnopqrstuvwxyz");
         assertEquals(englishAlphabet.getTableValues(englishAlphabet.getAlphabetTable()), integers);
     }
 
-//    @Test
-//    public void testRevserseTable() {
-//        ArrayList<Integer> integers = new ArrayList<Integer>(26);
-//        for (int i=0; i<26; i++) {
-//            integers.add(i);
-//        }
-//        assertEquals(englishAlphabet.getTableKeys(englishAlphabet.getAlphabetTableReverse()), "abcdefghijklmnopqrstuvwxyz");
-//        assertEquals(englishAlphabet.getTableValues(), integers);
-//    }
+    @Test
+    public void testRevserseTable() {
+        assertEquals(englishAlphabet.getReverseTableKeys(englishAlphabet.getAlphabetTableReverse()), integers);
+        assertEquals(englishAlphabet.getReverseTableValues(englishAlphabet.getAlphabetTableReverse()), "abcdefghijklmnopqrstuvwxyz");
+    }
 
 }

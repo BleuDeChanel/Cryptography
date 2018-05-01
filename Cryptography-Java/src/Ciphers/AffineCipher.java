@@ -26,7 +26,7 @@ public class AffineCipher extends Cipher {
     }
 
     @Override
-    String decrypt(ArrayList<Integer> input, int c, int d) {
+    String decrypt(String input, int c, int d) {
         return null;
     }
 
@@ -34,6 +34,5 @@ public class AffineCipher extends Cipher {
     String getEncryptedMessage(String input, int a, int b) {
         return null;
     }
-
 
 }
