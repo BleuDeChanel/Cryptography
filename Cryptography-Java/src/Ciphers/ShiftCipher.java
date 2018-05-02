@@ -32,8 +32,11 @@ public class ShiftCipher extends Cipher {
                 Integer codeNumber = (a*conversionTable.get(Character.toString(input.charAt(index))) + b) % Modular;
                 if (codeNumber >= Modular) {
                     System.out.println("Modular is " + Modular);
+                    integers.add(codeNumber-Modular);
                 }
-                integers.add(codeNumber);
+                else {
+                    integers.add(codeNumber);
+                }
             } catch (ArithmeticException  e) {
                 System.err.println("ArithmeticException:  " + e.getMessage());
             }
@@ -55,14 +58,22 @@ public class ShiftCipher extends Cipher {
         String decryptedMessage = "";
         int length = input.length();
         HashMap<String,Integer> conversionTable = table.getAlphabetTable();
+        HashMap<Integer, String> reverseConversionTable = table.getAlphabetTableReverse();
 
         for (int index = 0; index < length; index++) {
             try {
                 Integer codeNumber = (c*conversionTable.get(Character.toString(input.charAt(index))) - d) % Modular;
                 if (codeNumber >= Modular) { // mod is returning -#...
                     System.out.println("Modular is " + Modular + "; use the least positive number in rrs");
+                    decryptedMessage += reverseConversionTable.get(codeNumber-Modular);
                 }
-                decryptedMessage += getKeyByValue(conversionTable,codeNumber);
+                else if (codeNumber < 0) {
+                    System.out.println("Added " + Modular + " since it was negative modular");
+                    decryptedMessage += reverseConversionTable.get(codeNumber+Modular);
+                }
+                else {
+                    decryptedMessage += reverseConversionTable.get(codeNumber);
+                }
             } catch (ArithmeticException  e) {
                 System.err.println("ArithmeticException:  " + e.getMessage());
             }
@@ -83,10 +94,11 @@ public class ShiftCipher extends Cipher {
     public String getEncryptedMessage(String input, int c, int d) {
         String encryptedMessage = "";
         HashMap<String,Integer> conversionTable = table.getAlphabetTable();
+        HashMap<Integer, String> reverseConversionTable = table.getAlphabetTableReverse();
         ArrayList<Integer> encryptedNumbers = encrypt(input, c, d);
 
         for (int i=0; i<encryptedNumbers.size();i++) {
-            encryptedMessage += getKeyByValue(conversionTable, encryptedNumbers.get(i));
+            encryptedMessage += reverseConversionTable.get(encryptedNumbers.get(i));
         }
         return encryptedMessage;
     }

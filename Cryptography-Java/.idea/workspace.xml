@@ -21,10 +21,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.4721734">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="EnglishAlphabet.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="EnglishAlphabet.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Ciphers/EnglishAlphabet.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="185">
+                <state relative-caret-position="527">
                   <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -50,11 +50,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Cipher.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Cipher.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Ciphers/Cipher.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="212">
-                  <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+                <state relative-caret-position="440">
+                  <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -79,8 +79,8 @@
           <file leaf-file-name="ShiftCipher.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Ciphers/ShiftCipher.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="337">
-                  <caret line="61" column="70" lean-forward="false" selection-start-line="61" selection-start-column="70" selection-end-line="61" selection-end-column="70" />
+                <state relative-caret-position="432">
+                  <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#817#826#0" expanded="true" />
@@ -92,8 +92,8 @@
           <file leaf-file-name="TestShiftCipher.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Test/TestShiftCipher.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="366">
-                  <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+                <state relative-caret-position="451">
+                  <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#913#922#0" expanded="true" />
@@ -148,8 +148,8 @@
         <option value="$PROJECT_DIR$/src/Test/TestEnglishAlphabet.java" />
         <option value="$PROJECT_DIR$/src/Ciphers/Cipher.java" />
         <option value="$PROJECT_DIR$/src/Ciphers/AffineCipher.java" />
-        <option value="$PROJECT_DIR$/src/Ciphers/ShiftCipher.java" />
         <option value="$PROJECT_DIR$/src/Test/TestShiftCipher.java" />
+        <option value="$PROJECT_DIR$/src/Ciphers/ShiftCipher.java" />
       </list>
     </option>
   </component>
@@ -289,7 +289,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestShiftCipher.testShiftCipherDecrypt">
+  <component name="RunManager" selected="JUnit.TestShiftCipher">
     <configuration default="false" name="TestEnglishAlphabet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -304,32 +304,6 @@
       <option name="MAIN_CLASS_NAME" value="Test.TestEnglishAlphabet" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestEnglishAlphabet.testTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Cryptography-Java" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.TestEnglishAlphabet" />
-      <option name="METHOD_NAME" value="testTable" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -408,6 +382,32 @@
       <option name="MAIN_CLASS_NAME" value="Test.TestShiftCipher" />
       <option name="METHOD_NAME" value="testShiftCipherGetEncryptedMessage" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestShiftCipher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Cryptography-Java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.TestShiftCipher" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -591,18 +591,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.TestEnglishAlphabet" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestEnglishAlphabet.testTable" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestEnglishAlphabet.testRevserseTable" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestShiftCipher.testShiftCipherDecrypt" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestShiftCipher.testShiftCipherGetEncryptedMessage" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestEnglishAlphabet.testRevserseTable" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestShiftCipher.testShiftCipherDecrypt" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestShiftCipher.testShiftCipherGetEncryptedMessage" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestShiftCipher" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestShiftCipher.testShiftCipherDecrypt" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestShiftCipher.testShiftCipherGetEncryptedMessage" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestEnglishAlphabet" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestEnglishAlphabet.testRevserseTable" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestEnglishAlphabet.testTable" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestShiftCipher" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestShiftCipher.testShiftCipherDecrypt" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestShiftCipher.testShiftCipherGetEncryptedMessage" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestEnglishAlphabet" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestEnglishAlphabet.testRevserseTable" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
@@ -629,23 +629,17 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestEnglishAlphabet - 2018.04.28 at 23h 02m 44s.xml">
-      <configuration name="TestEnglishAlphabet" configurationId="JUnit" />
+    <history-entry file="TestShiftCipher - 2018.05.02 at 10h 31m 20s.xml">
+      <configuration name="TestShiftCipher" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestShiftCipher_testShiftCipherDecrypt - 2018.04.28 at 23h 17m 22s.xml">
-      <configuration name="TestShiftCipher.testShiftCipherDecrypt" configurationId="JUnit" />
+    <history-entry file="TestShiftCipher - 2018.05.02 at 10h 31m 28s.xml">
+      <configuration name="TestShiftCipher" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestShiftCipher_testShiftCipherDecrypt - 2018.04.28 at 23h 18m 41s.xml">
-      <configuration name="TestShiftCipher.testShiftCipherDecrypt" configurationId="JUnit" />
+    <history-entry file="TestShiftCipher - 2018.05.02 at 10h 31m 57s.xml">
+      <configuration name="TestShiftCipher" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestShiftCipher_testShiftCipherDecrypt - 2018.04.28 at 23h 21m 13s.xml">
-      <configuration name="TestShiftCipher.testShiftCipherDecrypt" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestShiftCipher_testShiftCipherDecrypt - 2018.04.28 at 23h 21m 42s.xml">
-      <configuration name="TestShiftCipher.testShiftCipherDecrypt" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestShiftCipher_testShiftCipherDecrypt - 2018.04.28 at 23h 21m 53s.xml">
-      <configuration name="TestShiftCipher.testShiftCipherDecrypt" configurationId="JUnit" />
+    <history-entry file="TestShiftCipher - 2018.05.02 at 10h 33m 48s.xml">
+      <configuration name="TestShiftCipher" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestShiftCipher_testShiftCipherDecrypt - 2018.04.28 at 23h 22m 21s.xml">
       <configuration name="TestShiftCipher.testShiftCipherDecrypt" configurationId="JUnit" />
@@ -656,8 +650,14 @@
     <history-entry file="TestShiftCipher_testShiftCipherDecrypt - 2018.04.28 at 23h 25m 24s.xml">
       <configuration name="TestShiftCipher.testShiftCipherDecrypt" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestShiftCipher_testShiftCipherGetEncryptedMessage - 2018.04.28 at 23h 21m 11s.xml">
-      <configuration name="TestShiftCipher.testShiftCipherGetEncryptedMessage" configurationId="JUnit" />
+    <history-entry file="TestShiftCipher_testShiftCipherDecrypt - 2018.05.02 at 10h 13m 27s.xml">
+      <configuration name="TestShiftCipher.testShiftCipherDecrypt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestShiftCipher_testShiftCipherDecrypt - 2018.05.02 at 10h 19m 09s.xml">
+      <configuration name="TestShiftCipher.testShiftCipherDecrypt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestShiftCipher_testShiftCipherDecrypt - 2018.05.02 at 10h 31m 12s.xml">
+      <configuration name="TestShiftCipher.testShiftCipherDecrypt" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -671,7 +671,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36941963" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36941963" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -681,7 +681,7 @@
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3158482" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3158482" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -697,27 +697,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test/TestShiftCipher.java</url>
-          <line>47</line>
-          <properties />
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Ciphers/ShiftCipher.java</url>
-          <line>55</line>
-          <properties />
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Ciphers/ShiftCipher.java</url>
-          <line>61</line>
-          <properties />
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="41" />
+      <option name="time" value="44" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -868,20 +848,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/TestShiftCipher.java">
+    <entry file="file://$PROJECT_DIR$/src/Ciphers/Cipher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="440">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#913#922#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ciphers/EnglishAlphabet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
+        <state relative-caret-position="527">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -894,20 +873,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ciphers/Cipher.java">
+    <entry file="file://$PROJECT_DIR$/src/Test/TestShiftCipher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="451">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#913#922#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ciphers/ShiftCipher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="61" column="70" lean-forward="false" selection-start-line="61" selection-start-column="70" selection-end-line="61" selection-end-column="70" />
+        <state relative-caret-position="432">
+          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#817#826#0" expanded="true" />

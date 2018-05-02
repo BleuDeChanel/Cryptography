@@ -44,7 +44,7 @@ public class TestShiftCipher {
 
     @Test
     public void testShiftCipherDecrypt() {
-//        assertEquals(shiftCipher.decrypt("phhwdwirxu", 1, 3), "meetatfour");
+        assertEquals(shiftCipher.decrypt("phhwdwirxu", 1, 3), "meetatfour");
         assertEquals(shiftCipher.decrypt("ghyh", 1, 7), "zara");
     }
 
