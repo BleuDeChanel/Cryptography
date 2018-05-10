@@ -15,7 +15,7 @@ public class ShiftCipher extends Cipher {
 
     /**
      * Returns an array of Integers which represents the encrypted message given the input string,
-     * modular coefficient and how much to shift for the encryption
+     * modular coefficient and how much to shift for the encryption for a shift cipher
      *
      * @param input an input message that will be encrypted
      * @param a      the modular coefficient for shift cipher; it's going to be one
@@ -47,7 +47,7 @@ public class ShiftCipher extends Cipher {
 
     /**
      * Returns a string which represents the decrypted message given the input array,
-     * modular coefficient and how much was shifted for the encryption
+     * modular coefficient and how much was shifted for the encryption for a shift cipher
      *
      * @param input an input message that will be encrypted
      * @param c      the modular coefficient for shift cipher; it's going to be one
@@ -84,18 +84,17 @@ public class ShiftCipher extends Cipher {
 
     /**
      * Returns a string which represents the encrypted message given the input string,
-     * modular coefficient and how much to shift for the encryption
+     * modular coefficient and how much to shift for the encryption for a shift cipher
      *
      * @param input an input message that will be encrypted
-     * @param c      the modular coefficient for shift cipher; it's going to be one
-     * @param d      the number representing how much was shifted for the encryption
+     * @param a      the modular coefficient for shift cipher; it's going to be one
+     * @param b      the number representing how much was shifted for the encryption
      * */
     @Override
-    public String getEncryptedMessage(String input, int c, int d) {
+    public String getEncryptedMessage(String input, int a, int b) {
         String encryptedMessage = "";
-        HashMap<String,Integer> conversionTable = table.getAlphabetTable();
         HashMap<Integer, String> reverseConversionTable = table.getAlphabetTableReverse();
-        ArrayList<Integer> encryptedNumbers = encrypt(input, c, d);
+        ArrayList<Integer> encryptedNumbers = encrypt(input, a, b);
 
         for (int i=0; i<encryptedNumbers.size();i++) {
             encryptedMessage += reverseConversionTable.get(encryptedNumbers.get(i));

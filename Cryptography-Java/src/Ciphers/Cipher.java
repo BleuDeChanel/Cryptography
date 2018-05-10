@@ -1,8 +1,6 @@
 package Ciphers;
 
 import java.util.ArrayList;
-import java.util.Map;
-import java.util.Objects;
 
 /**
  * Created by Jin Min on 2018-04-25.
@@ -23,19 +21,9 @@ public abstract class Cipher {
         table.createTable();
     }
 
-    abstract ArrayList<Integer> encrypt(String input, int a, int b);
-    abstract String decrypt(String input, int c, int d);
-    abstract String getEncryptedMessage(String input, int a, int b);
-
-    public static <T, E> T getKeyByValue(Map<T, E> map, E value) {
-        for (Map.Entry<T, E> entry : map.entrySet()) {
-            if (Objects.equals(value, entry.getValue())) {
-                return entry.getKey();
-            }
-        }
-        return null;
-    }
-
+    public abstract ArrayList<Integer> encrypt(String input, int a, int b);
+    public abstract String decrypt(String input, int c, int d);
+    public abstract String getEncryptedMessage(String input, int a, int b);
 
     /**
      * Method below are now static under this class, but if more calculations were to supported,

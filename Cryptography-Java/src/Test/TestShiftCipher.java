@@ -1,5 +1,6 @@
 package Test;
 
+import Ciphers.Cipher;
 import Ciphers.ShiftCipher;
 import org.junit.Before;
 import org.junit.Test;
@@ -13,7 +14,7 @@ import static org.junit.Assert.assertEquals;
  * Created by Jin Min on 2018-04-25.
  */
 public class TestShiftCipher {
-    private ShiftCipher shiftCipher;
+    private Cipher shiftCipher;
 
     @Before
     public void setUp() {
