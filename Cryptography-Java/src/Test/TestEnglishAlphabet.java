@@ -36,5 +36,4 @@ public class TestEnglishAlphabet {
         assertEquals(englishAlphabet.getReverseTableKeys(englishAlphabet.getAlphabetTableReverse()), integers);
         assertEquals(englishAlphabet.getReverseTableValues(englishAlphabet.getAlphabetTableReverse()), "abcdefghijklmnopqrstuvwxyz");
     }
-
 }

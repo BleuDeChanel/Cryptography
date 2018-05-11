@@ -17,7 +17,7 @@ public class AffineCipher extends Cipher {
      * modular coefficient and how much to shift for the encryption for an affine cipher
      *
      * @param input an input message that will be encrypted
-     * @param a      the modular coefficient for shift cipher; it's going to be one
+     * @param a      the modular coefficient for affine cipher
      * @param b      the number representing how much to shift for the encryption
      * */
     @Override
@@ -37,28 +37,16 @@ public class AffineCipher extends Cipher {
     /**
      * Returns a string which represents the decrypted message given the input array,
      * modular coefficient and how much was shifted for the encryption for an affine cipher
+     * As a convention, used c and d for the parameters but they are calculated from the given inputs
+     * which will be the same numbers used to encrypt
      *
      * @param input an input message that will be encrypted
-     * @param c      the modular coefficient for shift cipher; it's going to be one
-     * @param d      the number representing how much was shifted for the encryption
+     * @param c      the modular coefficient for affine cipher; c is the inverse of a (mod 26)
+     * @param d      the number representing how much was shifted for the encryption; d is negative the inverse of a (mod 26) times b
      * */
     @Override
     public String decrypt(String input, int c, int d) {
+
         return null;
     }
-
-
-    /**
-     * Returns a string which represents the encrypted message given the input string,
-     * modular coefficient and how much to shift for the encryption for an affine cipher
-     *
-     * @param input an input message that will be encrypted
-     * @param a      the modular coefficient for shift cipher; it's going to be one
-     * @param b      the number representing how much was shifted for the encryption
-     * */
-    @Override
-    public String getEncryptedMessage(String input, int a, int b) {
-        return null;
-    }
-
 }
