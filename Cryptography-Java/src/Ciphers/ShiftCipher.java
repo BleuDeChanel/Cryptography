@@ -62,7 +62,7 @@ public class ShiftCipher extends Cipher {
         for (int index = 0; index < length; index++) {
             try {
                 Integer codeNumber = (c*conversionTable.get(Character.toString(input.charAt(index))) - d) % Modular;
-                if (codeNumber >= Modular) { // mod is returning -#...
+                if (codeNumber >= Modular) {
                     System.out.println("Modular is " + Modular + "; use the least positive number in rrs");
                     decryptedMessage += reverseConversionTable.get(codeNumber-Modular);
                 }

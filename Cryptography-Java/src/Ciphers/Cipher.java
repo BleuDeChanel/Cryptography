@@ -22,7 +22,7 @@ public abstract class Cipher {
         table.createTable();
     }
 
-    public abstract ArrayList<Integer> encrypt(String input, int a, int b);
+    public abstract ArrayList<Integer> encrypt(String input, int a, int b) throws Exception;
     public abstract String decrypt(String input, int c, int d);
 
     /**
@@ -36,7 +36,13 @@ public abstract class Cipher {
     public String getEncryptedMessage(String input, int a, int b) {
         String encryptedMessage = "";
         HashMap<Integer, String> reverseConversionTable = table.getAlphabetTableReverse();
-        ArrayList<Integer> encryptedNumbers = encrypt(input, a, b);
+        ArrayList<Integer> encryptedNumbers = null;
+
+        try {
+            encryptedNumbers = encrypt(input, a, b);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
         for (int i=0; i<encryptedNumbers.size();i++) {
             encryptedMessage += reverseConversionTable.get(encryptedNumbers.get(i));
@@ -56,10 +62,14 @@ public abstract class Cipher {
 
     /**
      * Find an inverse a mod m
+     * If a and m are not coprime, return -1 as it's invertible
      * */
 
     public static int findInverse(int a, int m)
     {
+        if (gcd(a,m) != 1) {
+            return -1;
+        }
         a = a % m;
         for (int x = 1; x < m; x++)
             if ((a * x) % m == 1)
