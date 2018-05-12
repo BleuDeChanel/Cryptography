@@ -18,13 +18,13 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.53841746">
+    <splitter split-orientation="horizontal" split-proportion="0.46500304">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="EnglishAlphabet.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Ciphers/EnglishAlphabet.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-323">
+                <state relative-caret-position="-1064">
                   <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -33,10 +33,23 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="AffineCipher.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Ciphers/AffineCipher.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="969">
+                  <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#836#845#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="Cipher.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Ciphers/Cipher.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="646">
+                <state relative-caret-position="76">
                   <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -45,14 +58,13 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="AffineCipher.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Ciphers/AffineCipher.java">
+          <file leaf-file-name="TestExponentialCipher.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Test/TestExponentialCipher.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="798">
-                  <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+                <state relative-caret-position="342">
+                  <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#836#845#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -62,6 +74,16 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="ExponentialCipher.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Ciphers/ExponentialCipher.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="133">
+                  <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="30" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
             <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/ArrayList.java">
               <provider selected="true" editor-type-id="text-editor">
@@ -84,27 +106,15 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="TestAffineCipher.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="TestAffineCipher.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Test/TestAffineCipher.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="437">
-                  <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+                <state relative-caret-position="114">
+                  <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#509#518#0" expanded="true" />
                     <element signature="e#599#608#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TestCipher.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Test/TestCipher.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="380">
-                  <caret line="35" column="50" lean-forward="false" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -173,6 +183,8 @@
         <option value="$PROJECT_DIR$/src/Ciphers/AffineCipher.java" />
         <option value="$PROJECT_DIR$/src/Test/TestShiftCipher.java" />
         <option value="$PROJECT_DIR$/src/Test/TestAffineCipher.java" />
+        <option value="$PROJECT_DIR$/src/Ciphers/ExponentialCipher.java" />
+        <option value="$PROJECT_DIR$/src/Test/TestExponentialCipher.java" />
       </list>
     </option>
   </component>
@@ -312,7 +324,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestAffineCipher.testAffineCipherDecrypt">
+  <component name="RunManager" selected="JUnit.TestShiftCipher">
     <configuration default="false" name="TestCipher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -365,32 +377,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="TestAffineCipher.testAffineCipherEncrypt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Cryptography-Java" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.TestAffineCipher" />
-      <option name="METHOD_NAME" value="testAffineCipherEncrypt" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="false" name="TestAffineCipher.testAffineCipherGetEncryptedMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -429,6 +415,32 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Test" />
       <option name="MAIN_CLASS_NAME" value="Test.TestAffineCipher" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestShiftCipher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Cryptography-Java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.TestShiftCipher" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -615,17 +627,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.TestCipher" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.TestAffineCipher.testAffineCipherDecrypt" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestAffineCipher.testAffineCipherEncrypt" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestAffineCipher.testAffineCipherGetEncryptedMessage" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestAffineCipher" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestAffineCipher.testAffineCipherGetEncryptedMessage" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestAffineCipher" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestShiftCipher" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestAffineCipher.testAffineCipherDecrypt" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestAffineCipher.testAffineCipherGetEncryptedMessage" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestAffineCipher.testAffineCipherEncrypt" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestAffineCipher" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestCipher" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestShiftCipher" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestCipher" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestAffineCipher" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestAffineCipher.testAffineCipherDecrypt" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestAffineCipher.testAffineCipherGetEncryptedMessage" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
@@ -655,20 +667,17 @@
     <history-entry file="TestAffineCipher - 2018.05.11 at 13h 44m 04s.xml">
       <configuration name="TestAffineCipher" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestAffineCipher - 2018.05.11 at 16h 24m 35s.xml">
+      <configuration name="TestAffineCipher" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="TestAffineCipher_testAffineCipherDecrypt - 2018.05.11 at 13h 44m 01s.xml">
       <configuration name="TestAffineCipher.testAffineCipherDecrypt" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestAffineCipher_testAffineCipherDecrypt - 2018.05.11 at 13h 53m 25s.xml">
       <configuration name="TestAffineCipher.testAffineCipherDecrypt" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestAffineCipher_testAffineCipherEncrypt - 2018.05.11 at 13h 41m 34s.xml">
-      <configuration name="TestAffineCipher.testAffineCipherEncrypt" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestAffineCipher_testAffineCipherEncrypt - 2018.05.11 at 13h 50m 03s.xml">
       <configuration name="TestAffineCipher.testAffineCipherEncrypt" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestAffineCipher_testAffineCipherGetEncryptedMessage - 2018.05.11 at 13h 41m 40s.xml">
-      <configuration name="TestAffineCipher.testAffineCipherGetEncryptedMessage" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestAffineCipher_testAffineCipherGetEncryptedMessage - 2018.05.11 at 13h 42m 05s.xml">
       <configuration name="TestAffineCipher.testAffineCipherGetEncryptedMessage" configurationId="JUnit" />
@@ -679,12 +688,15 @@
     <history-entry file="TestAffineCipher_testAffineCipherGetEncryptedMessage - 2018.05.11 at 13h 52m 56s.xml">
       <configuration name="TestAffineCipher.testAffineCipherGetEncryptedMessage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCipher - 2018.05.11 at 13h 40m 14s.xml">
+    <history-entry file="TestCipher - 2018.05.11 at 16h 24m 38s.xml">
       <configuration name="TestCipher" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestShiftCipher - 2018.05.11 at 16h 24m 41s.xml">
+      <configuration name="TestShiftCipher" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1000,16 +1012,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ciphers/EnglishAlphabet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-323">
-          <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../path-to-enlightenment/src/components/account/Account.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="639">
@@ -1035,16 +1037,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ciphers/ShiftCipher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test/TestShiftCipher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="461">
@@ -1055,20 +1047,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/TestCipher.java">
+    <entry file="file://$PROJECT_DIR$/src/Ciphers/EnglishAlphabet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="35" column="50" lean-forward="false" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ciphers/Cipher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="-1064">
+          <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1077,8 +1059,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ciphers/AffineCipher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+        <state relative-caret-position="969">
+          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#836#845#0" expanded="true" />
@@ -1086,14 +1068,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/TestCipher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" column="50" lean-forward="false" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ciphers/ShiftCipher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test/TestAffineCipher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+        <state relative-caret-position="114">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#509#518#0" expanded="true" />
             <element signature="e#599#608#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ciphers/Cipher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ciphers/ExponentialCipher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/TestExponentialCipher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
