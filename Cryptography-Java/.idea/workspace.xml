@@ -26,7 +26,10 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="19">
                   <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-                  <folding />
+                  <folding>
+                    <element signature="e#2164#2173#0" expanded="true" />
+                    <element signature="e#2860#2869#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -44,7 +47,7 @@
           <file leaf-file-name="Cipher.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Ciphers/Cipher.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="790">
+                <state relative-caret-position="855">
                   <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -104,10 +107,7 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="190">
                   <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="44" />
-                  <folding>
-                    <element signature="e#509#518#0" expanded="true" />
-                    <element signature="e#599#608#0" expanded="true" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -197,8 +197,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -289,7 +288,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -684,7 +684,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="1" width="1932" height="1045" extended-state="0" />
+    <frame x="-6" y="1" width="1932" height="1045" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -729,7 +729,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
           <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="e#2164#2173#0" expanded="true" />
+            <element signature="e#2860#2869#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -789,10 +792,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#509#518#0" expanded="true" />
-            <element signature="e#599#608#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -816,7 +816,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
           <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="e#2164#2173#0" expanded="true" />
+            <element signature="e#2860#2869#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -874,10 +877,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="e#509#518#0" expanded="true" />
-            <element signature="e#599#608#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -885,7 +885,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
           <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="e#2164#2173#0" expanded="true" />
+            <element signature="e#2860#2869#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -927,10 +930,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="23" column="88" lean-forward="true" selection-start-line="23" selection-start-column="88" selection-end-line="23" selection-end-column="88" />
-          <folding>
-            <element signature="e#509#518#0" expanded="true" />
-            <element signature="e#599#608#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -961,7 +961,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="13" column="56" lean-forward="true" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
-          <folding />
+          <folding>
+            <element signature="e#2164#2173#0" expanded="true" />
+            <element signature="e#2860#2869#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1129,16 +1132,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="44" />
-          <folding>
-            <element signature="e#509#518#0" expanded="true" />
-            <element signature="e#599#608#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ciphers/Cipher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="790">
+        <state relative-caret-position="855">
           <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1150,7 +1150,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="e#2164#2173#0" expanded="true" />
+            <element signature="e#2860#2869#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
